@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #494949;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background-color: aliceblue;
+  width: 400px;
+  max-height: auto;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 20px rgb(151, 206, 255);
+}
+
+.search-box {
+  height: 50px;
+  padding: 5px 20px;
+  margin: 5px 0px;
+  border: grey solid 1px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-box i {
+  color: grey;
+  font-size: 15px;
+}
+
+.search-box input {
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  text-align: start;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.display-msg {
+  color: grey;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.title-cocktail {
+  padding: 10px;
+}
+
+.title-cocktail-img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.box-name-cocktail {
+  background-color: rgb(151, 206, 255);
+  border-radius: 10px;
+  padding: 5px 0px;
+}
+
+.ingredients-title {
+  text-align: start;
+  padding: 0px 10px;
+}
+
+.ingredients-cocktail {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: space-around;
+  gap: 20px;
+  font-size: 14px;
+  padding: 10px;
+  text-align: start;
+}
+
+.instructions-box {
+  padding: 10px;
+}
+
+.instructions-details,
+.instructions-title {
+  text-align: start;
+}
+
+.instructions-details {
+  font-size: 14px;
+}
